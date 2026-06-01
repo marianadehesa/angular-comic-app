@@ -14,7 +14,7 @@ Este proyecto fue desarrollado con el objetivo de fortalecer conocimientos en An
 * Diseño responsivo.
 * Gestión de datos mediante servicios.
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías utilizadas
 
 * Angular 21
 * TypeScript
@@ -94,7 +94,7 @@ ng serve
 http://localhost:4200
 ```
 
-## 🎯 Objetivos de Aprendizaje
+## 🎯 Objetivos de aprendizaje
 
 Este proyecto permitió reforzar conocimientos en:
 
