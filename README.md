@@ -1,59 +1,108 @@
-# Spa
+# 🦸 Angular Comic App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.0.
+Aplicación web desarrollada con Angular que permite explorar, buscar y visualizar información de personajes de cómics a través de una interfaz moderna, intuitiva y responsiva.
 
-## Development server
+Este proyecto fue desarrollado con el objetivo de fortalecer conocimientos en Angular, TypeScript, arquitectura basada en componentes, enrutamiento y desarrollo frontend.
 
-To start a local development server, run:
+## 🚀 Funcionalidades
+
+* Visualización de personajes de cómics.
+* Búsqueda de héroes por nombre.
+* Visualización de información detallada de cada personaje.
+* Navegación entre páginas mediante Angular Router.
+* Componentes reutilizables.
+* Diseño responsivo.
+* Gestión de datos mediante servicios.
+
+## 🛠️ Tecnologías Utilizadas
+
+* Angular 21
+* TypeScript
+* HTML5
+* CSS3
+* Bootstrap
+* RxJS
+* Angular Router
+* Git
+* GitHub
+
+## 📸 Capturas de Pantalla
+
+### Página Principal
+
+![Página Principal](./screenshots/home.png)
+
+### Listado de Personajes
+
+![Listado de Personajes](./screenshots/heroes.png)
+
+
+### Detalle del Personaje
+
+![Detalle del Personaje](./screenshots/informacionheroe.png)
+
+## 📂 Estructura del Proyecto
+
+```text
+SPA/
+├── public/
+├── screenshots/
+├── src/
+│   ├── app/
+│   ├── index.html
+│   ├── main.ts
+│   └── styles.css
+├── .vscode/
+├── angular.json
+├── package.json
+├── package-lock.json
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.spec.json
+└── README.md
+```
+
+## ⚙️ Instalación
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/marianadehesa/angular-comic-app.git
+```
+
+### 2. Entrar al directorio del proyecto
+
+```bash
+cd SPA
+```
+
+### 3. Instalar dependencias
+
+```bash
+npm install
+```
+
+### 4. Ejecutar la aplicación
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### 5. Abrir en el navegador
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🎯 Objetivos de Aprendizaje
 
-```bash
-ng generate --help
-```
+Este proyecto permitió reforzar conocimientos en:
 
-## Building
+* Desarrollo Front-End con Angular.
+* Arquitectura basada en componentes.
+* TypeScript.
+* Routing y navegación.
+* Consumo y gestión de datos mediante servicios.
+* Organización modular de aplicaciones.
+* Control de versiones con Git y GitHub.
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
